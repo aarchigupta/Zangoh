@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FDE3D9;
+}
+header{  
+    position: fixed;  
+    left: 1171px;  
+    right: 0;  
+    top: 48px; 
+    height: 14px; 
+    display: flex;  
+    align-items:end;  
+    }  
+header *{  
+        display: inline;  
+        }  
+header li{  
+        margin: 15px;  
+        }  
+header li a{  
+        color: white;  
+        text-decoration: none;  
+        }  
+header li img{
+            top: 33px;
+            left: 41px;
+            width: 194px;
+            height: 62px;
+        }
+img{
+    position:fixed; 
+    top: 0px;
+    left: 820px;
+    width: 720px;
+    height: 810px;
+    background:transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+}
+p{
+    position: fixed;
+    top:340px;
+    left: 60px;
+    font-size:46px;     
+    text-align: left;
+    color: #3E3E3E; 
+    opacity: 1;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    letter-spacing: 0px;
+}
+small{
+    position: fixed;
+    top: 542px;
+    left: 60px;
+    width: 440px;
+    height: 108px;
+    font-size:17px ;
+    letter-spacing: var(--unnamed-character-spacing--0-11);
+    letter-spacing: -0.11px;
+    color: #6D6D6D;
+}
+b{
+    position: fixed;
+    top: 501px;
+left: 900px;
+width: 80px;
+height: 20px;
+text-align: left;
+letter-spacing: -0.12px;
+color: #FFFFFF;
+opacity: 1;
+}
